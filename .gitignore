@@ -1,0 +1,11 @@
+# various ides and editors
+.vscode/
+.idea/
+**/*~
+
+# mac osx temporary files
+.DS_Store
+**/.DS_Store
+
+# dfx temporary files
+.dfx/
