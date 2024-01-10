@@ -1,5 +1,8 @@
 {
-  "icrc1-ledger": {
+  "icrc1_ledger": {
     "ic": "fq7md-ayaaa-aaaag-abpea-cai"
+  },
+  "vault": {
+    "ic": "s6e6o-cqaaa-aaaag-aciga-cai"
   }
 }
