@@ -1,10 +1,10 @@
 export MINTER_ID=$(dfx identity get-principal)
 echo "minter: $MINTER_ID"
 
-export TOKEN_NAME="q"
+export TOKEN_NAME="amp"
 echo "name: $TOKEN_NAME"
 
-export TOKEN_SYMBOL="q"
+export TOKEN_SYMBOL="&"
 echo "symbol: $TOKEN_SYMBOL"
 
 export DEPLOY_ID=$(dfx identity get-principal)
@@ -13,7 +13,7 @@ echo "deploy_id: $DEPLOY_ID"
 export PRE_MINTED_TOKENS=0
 echo "pre_minted_tokens: $PRE_MINTED_TOKENS"
 
-export TRANSFER_FEE=10_000_000
+export TRANSFER_FEE=10_000
 echo "transfer_fee: $TRANSFER_FEE"
 
 export ARCHIVE_CONTROLLER=$(dfx identity get-principal)

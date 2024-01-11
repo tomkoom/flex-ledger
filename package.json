@@ -1,11 +1,10 @@
 {
-	"name": "qtoken",
+	"name": "amp",
 	"version": "0.1.0",
 	"description": "",
 	"keywords": [],
 	"scripts": {
 		"build": "",
-		"token_deploy:local": "bash deploy_local.sh",
 		"token_uninstall:local": "dfx canister uninstall-code icrc1_ledger"
 	}
 }
