@@ -1,4 +1,6 @@
 import Principal "mo:base/Principal";
+
+// ...
 import Ledger "./ledger";
 
 actor {
@@ -9,7 +11,7 @@ actor {
   let tokenCanister = "fq7md-ayaaa-aaaag-abpea-cai"; // ic
   let token = actor (tokenCanister) : Ledger.Self;
 
-  public shared ({ caller }) func send(owner : Principal, amount : Nat) : async Ledger.Result {
+  public shared ({ caller }) func mint(owner : Principal, amount : Nat) : async Ledger.Result {
     assert (caller == Principal.fromText(admin));
     assert (not Principal.isAnonymous(owner));
 
