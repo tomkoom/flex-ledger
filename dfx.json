@@ -13,7 +13,7 @@
 			"main": "src/vault1.mo",
 			"type": "motoko"
 		},
-    "vault2": {
+		"vault2": {
 			"main": "src/vault2.mo",
 			"type": "motoko"
 		}

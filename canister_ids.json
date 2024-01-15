@@ -1,14 +1,14 @@
 {
-  "icrc1_ledger": {
-    "ic": "fq7md-ayaaa-aaaag-abpea-cai"
-  },
-  "minter": {
-    "ic": "s6e6o-cqaaa-aaaag-aciga-cai"
-  },
-  "vault1": {
-    "ic": "qk232-hqaaa-aaaag-aciia-cai"
-  },
-  "vault2": {
-    "ic": "qn35o-kiaaa-aaaag-aciiq-cai"
-  }
+	"icrc1_ledger": {
+		"ic": "fq7md-ayaaa-aaaag-abpea-cai"
+	},
+	"minter": {
+		"ic": "s6e6o-cqaaa-aaaag-aciga-cai"
+	},
+	"vault1": {
+		"ic": "qk232-hqaaa-aaaag-aciia-cai"
+	},
+	"vault2": {
+		"ic": "qn35o-kiaaa-aaaag-aciiq-cai"
+	}
 }
