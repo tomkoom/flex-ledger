@@ -8,14 +8,6 @@
 		"vault": {
 			"main": "src/vault.mo",
 			"type": "motoko"
-		},
-		"v1": {
-			"main": "src/v1.mo",
-			"type": "motoko"
-		},
-		"v2": {
-			"main": "src/v2.mo",
-			"type": "motoko"
 		}
 	},
 	"defaults": {
