@@ -2,13 +2,13 @@
 	"icrc1_ledger": {
 		"ic": "fq7md-ayaaa-aaaag-abpea-cai"
 	},
-	"minter": {
-		"ic": "s6e6o-cqaaa-aaaag-aciga-cai"
-	},
-	"vault1": {
+	"vault": {
 		"ic": "qk232-hqaaa-aaaag-aciia-cai"
 	},
-	"vault2": {
+	"v1": {
 		"ic": "qn35o-kiaaa-aaaag-aciiq-cai"
+	},
+	"v2": {
+		"ic": "s6e6o-cqaaa-aaaag-aciga-cai"
 	}
 }

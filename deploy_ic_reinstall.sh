@@ -1,10 +1,10 @@
-export MINTER_ID="s6e6o-cqaaa-aaaag-aciga-cai"
+export MINTER_ID=$(dfx identity get-principal)
 echo "minter: $MINTER_ID"
 
 export TOKEN_NAME="et"
 echo "name: $TOKEN_NAME"
 
-export TOKEN_SYMBOL="&"
+export TOKEN_SYMBOL="ET"
 echo "symbol: $TOKEN_SYMBOL"
 
 export DEPLOY_ID=$(dfx identity get-principal)
@@ -16,7 +16,7 @@ echo "pre_minted_tokens: $PRE_MINTED_TOKENS"
 export TRANSFER_FEE=10_000
 echo "transfer_fee: $TRANSFER_FEE"
 
-export ARCHIVE_CONTROLLER="s6e6o-cqaaa-aaaag-aciga-cai"
+export ARCHIVE_CONTROLLER=$(dfx identity get-principal)
 echo "archive_controller: $ARCHIVE_CONTROLLER"
 
 export TRIGGER_THRESHOLD=2000
