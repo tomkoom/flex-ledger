@@ -9,3 +9,6 @@
 
 # dfx temporary files
 .dfx/
+
+# env
+.env
