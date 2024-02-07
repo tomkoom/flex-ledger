@@ -33,7 +33,7 @@ echo "feature_flags: $FEATURE_FLAGS"
 
 echo "start deploy"
 
-dfx deploy --network=ic icrc1_ledger --with-cycles 1000000000000 --argument "(variant {Init = 
+dfx canister --network=ic install icrc1_ledger -m reinstall --argument "(variant {Init = 
 record {
      token_symbol = \"${TOKEN_SYMBOL}\";
      token_name = \"${TOKEN_NAME}\";

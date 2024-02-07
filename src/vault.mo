@@ -1,12 +1,12 @@
 import Principal "mo:base/Principal";
 import Ledger "./ledger";
-import Utils "./utils";
+import U "./utils";
 
 actor {
-  let token = actor (Utils.tokenLedgerId) : Ledger.Self;
+  let token = actor (U.tokenLedgerId) : Ledger.Self;
 
   public shared ({ caller }) func send(owner : Principal, amount : Nat) : async Ledger.Result {
-    assert (caller == Principal.fromText(Utils.admin));
+    assert (caller == Principal.fromText(U.admin));
 
     let to : Ledger.Account = {
       owner;

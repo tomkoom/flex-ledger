@@ -1,11 +1,8 @@
 {
-  "icrc1_ledger": {
-    "ic": "qk232-hqaaa-aaaag-aciia-cai"
-  },
-  "token_ledger_icrc1": {
-    "ic": "vne52-waaaa-aaaag-aciva-cai"
-  },
-  "vault": {
-    "ic": "fq7md-ayaaa-aaaag-abpea-cai"
-  }
+	"icrc1_ledger": {
+		"ic": "qk232-hqaaa-aaaag-aciia-cai"
+	},
+	"icrc1_vault": {
+		"ic": "fq7md-ayaaa-aaaag-abpea-cai"
+	}
 }
