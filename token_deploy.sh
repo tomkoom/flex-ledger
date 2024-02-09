@@ -1,10 +1,10 @@
 export MINTER_ID=$(dfx identity get-principal)
 echo "minter: $MINTER_ID"
 
-export TOKEN_NAME="q"
+export TOKEN_NAME="FLEX"
 echo "name: $TOKEN_NAME"
 
-export TOKEN_SYMBOL="Q"
+export TOKEN_SYMBOL="FLEX"
 echo "symbol: $TOKEN_SYMBOL"
 
 export DEPLOY_ID=$(dfx identity get-principal)
